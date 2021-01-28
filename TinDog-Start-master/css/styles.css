@@ -1,0 +1,169 @@
+/* ID needs to add # */
+
+#title {
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+h1 {
+  font-family: "Montserrat-Black 900", sans-serif; /*a set of type of one particular face and size */
+  font-size: 3.5rem; /*sets the size of the text.*/
+  line-height: 1.5; /*sets the height of a line box. It's commonly used to set the distance between lines of text*/
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif; /*a set of type of one particular face and size */
+  font-size: 3rem; /*sets the size of the text.*/
+  line-height: 1.5; /*sets the height of a line box. It's commonly used to set the distance between lines of text*/
+}
+
+h3 {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid { /* The .container-fluid class provides a full width container, spanning the entire width of the viewport*/
+  padding: 3% 15% 7%; /* top, right and left, bottom*/
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item { /* The box of Contact Pricing.. */
+  padding: 0 18px;
+}
+
+.nav-link { /* The words of Contact Pricing.. */
+  font-size:1.2rem;
+}
+
+/* Download-Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg); /* Equal to rotateZ(25deg) */
+  position:absolute;
+  right: 30%; /* Position */
+}
+
+/* Feature Section */
+
+#features {  /* Visual Hierarchy- Make topic much noticeable */
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;  /*specifies the horizontal alignment of text in an element.Center is centers the text*/
+  padding: 5%; /* Makes much space between text */
+}
+
+/* Font Awesome */
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem; /* Give space between icon and text */
+}
+
+.icon:hover { /* Hover is used to select elements when you mouse over them. */
+  color: #ff4c68;
+}
+
+/* Testimonial Sections */
+
+#testimonials {
+  text-align: center;
+  color: #fff;
+  background-color: #ef8172;
+}
+
+
+.carousel-itme { /* The move button */
+  padding:7% 15%;
+}
+
+.testimonial-image {
+  width: 10%; /* The size of the image */
+  border-radius: 100%; /* It's a circle border */
+  margin:20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+width: 15%;
+margin:20px 20px 50px; /* Top, Right and Left, Bottom */
+}
+
+/* Pricing Sections */
+
+#pricing {
+  padding:inherit;100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding:7% 15%;
+  text-align: center;
+}
+
+.cat-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  padding:7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Query-change layout as the screen size, ex. Lapto vs. Iphone */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static; /* Static positioned elements are not affected by the top, bottom, left, and right properties. */
+    transform: rotate(0); /* Rotate the image to 0 degree */
+  }
+}
